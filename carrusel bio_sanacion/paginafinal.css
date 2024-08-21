@@ -1,0 +1,14 @@
+body{
+    background-color: #F1F5F6;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.textofinal{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: #505050;
+}

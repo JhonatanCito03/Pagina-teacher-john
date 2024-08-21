@@ -1,0 +1,31 @@
+body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 90%;
+        
+        background: url('fondopagina2.jpg')no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.volver{
+    margin: 30px;
+
+    width: 50%;
+    justify-content: center;
+    margin-left: 130px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 11px 2px purple;
+    background: #ffd000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}

@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.mano {
+    color: #ffff;
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 50px;
+    
+
+}
+
+.textob {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 120px;
+}
+
+body {
+    height: 100vh;
+    background-image: url(imagenes/gradiante.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search i {
+    font-size: 25px;
+    color: #d0ff00ee;
+
+}
+
+.search-txt {
+    display: flex;
+    align-items: center;
+
+}
+
+.search-txt i {
+    font-size: 40px;
+    color: #00d9ff;
+}
+
+.search-txt h2 {
+    color: #00ffdd;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+
+.movies {
+    padding: 50px 0 15px 0;
+
+}
+
+.movies h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.swiper {
+    width: 100%;
+
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.icons {
+    font-size: 30PX;
+    padding: 0 350px 50px 350px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icons i {
+    color: rgb(101, 170, 190);
+    font-size: #ffffff11;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/**al pasar el mouse**/
+.icons i:hover {
+    color: #555555;
+    background-color: #67d4ff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+@media(max-width:991px) {
+    body {
+        min-height: 0vh;
+    }
+    .icons {display: none;}
+
+    .search {
+        padding: 30px 30px 0 30px;
+
+    }
+
+    .movies {
+        padding: 30px;
+
+    }
+
+    .icons {
+        padding: 30px;
+    }
+}
